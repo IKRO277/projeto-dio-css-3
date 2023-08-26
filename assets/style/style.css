@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    background: #F9F9F9;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items:center; 
+    background: #FFFFFF; 
+}
+.navegacao {
+    width: 138px;
+    height: 24px;
+    justify-content: space-between;
+    display: flex;
+}
+#ferramentas {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+#logo {
+    display: flex;
+    width: 90px;
+    height: 20px;
+    flex-shrink: 0;
+    background: url(../img/logo.png);
+    background-size: contain;
+
+}
+.buscar {
+    display: flex;
+    width: 405;
+    height: 40;
+    margin: 0 auto;
+}
+#digitar-buscar {
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+#icone-buscar button {
+    width: 57px;
+    height: 42px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: url(../img/search-svg.svg) no-repeat;
+    background-position: 50% 50%;
+}
+.video-notificacao-perfil {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+#video {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: url(../img/video.svg) no-repeat;
+    background-size: contain;
+}
+#notificacao {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: url(../img/bell.svg) no-repeat;
+    background-size: contain;
+}
+#perfil {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: url(../img/Avatar.svg) no-repeat;
+    background-size: contain;
+}
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    width: 1470px;
+
+}
+.sidebar{
+    display: grid;
+    grid-column: 218px;
+    width: 160px;
+    grid-template-rows: repeat(10, 24px);
+    padding: 12px 12px 0px 24px;
+    row-gap: 22px;
+}
+.option-1{
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+.icon {
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+.inicio {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icon-name {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.corpo{
+    width: 1470px;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: repeat(3, 250px);
+    justify-content:flex-end;
+    align-items:center ;
+    gap: 24px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.conteudo {
+    display: flex;
+
+}
+.img{
+    width: 250px;
+    height: 140.288px;
+    flex-shrink: 0;
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 249px;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.texto-1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.texto-2 {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
